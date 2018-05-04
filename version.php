@@ -9,6 +9,6 @@
 
 $plugin->version  = 2018032901;
 $plugin->component = 'local_hibp';
-$plugin->requires = 2015110100;
+$plugin->requires = 2018040500;
 $plugin->release = '1.0 (Build: 2018032901)';
 $plugin->maturity = MATURITY_STABLE;

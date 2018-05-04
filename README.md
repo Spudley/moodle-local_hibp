@@ -29,9 +29,9 @@ This is a standard Moodle 'local' plugin. Installation is via Moodle's plugin ma
 Requirements
 ------------
 
-This plugin should work with Moodle v3.??? and higher (TBC). Note: The callback that the plugin uses was added to Moodle core in order to allow this plugin to be implemented. The plugin will only work if this change is in the Moodle core. You must ensure that your copy of Moodle includes this change.
+This plugin should work with Moodle v3.5 and higher.
 
-It has only been tested so far with a development version of Moodle that included the core update to allow it to work.
+Note: The callback hook that the plugin uses was added to Moodle core by the author of this plugin in order to allow the plugin to be implemented. The patch was accepted into the core for the release of Moodle 3.5.
 
 
 Configuration
@@ -45,7 +45,7 @@ In the plugin configuration, set the options as follows:
 
 * Compromise threshold limit:
 
-This is an integer value that allows you to specify how many times a password should appear in the HaveIBeenPwned database before we prevent it from being used. The default and ideal setting for this is zero, but you may consider this too strict. The option can be set to any value up to 10.
+  This is an integer value that allows you to specify how many times a password should appear in the HaveIBeenPwned database before we prevent it from being used. The default and ideal setting for this is zero, but you may consider this too strict. The option can be set to any value up to 10.
 
 
 Caveats, Limitations, To-dos and Notes
@@ -63,6 +63,8 @@ Documentation for the HaveIBeenPwned API can be found here: https://haveibeenpwn
 The main HIBP site and further information about it can be found at https://haveibeenpwned.com/
 
 The author of HIBP is Troy Hunt. His personal site can be found here: https://www.troyhunt.com/
+
+For those interested in the Moodle core patch that was made to enable this plugin, you can read about it on the Moodle Tracker: https://tracker.moodle.org/browse/MDL-61694
 
 
 License
