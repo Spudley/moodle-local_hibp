@@ -29,9 +29,11 @@ This is a standard Moodle 'local' plugin. Installation is via Moodle's plugin ma
 Requirements
 ------------
 
-This plugin should work with Moodle v3.5 and higher.
+This plugin should work with Moodle v3.6 and higher.
 
-Note: The callback hook that the plugin uses was added to Moodle core by the author of this plugin in order to allow the plugin to be implemented. The patch was accepted into the core for the release of Moodle 3.5.
+Note: The callback hook that the plugin uses was added to Moodle core by the author of this plugin in order to allow the plugin to be implemented. The patch was accepted into the core, but not in time for the release of Moodle 3.5. It will therefore be available for the release of Moodle 3.6.
+
+Should you wish to use this plugin with an earlier version of Moodle, the changes made to the core to support the plugin can be back-ported relatively easily. Please see the Moodle tracker ticket linked below for further details.
 
 
 Configuration
